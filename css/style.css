@@ -1,0 +1,97 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Bodoni Moda", serif; }
+
+h1 {
+  font-size: 66px;
+  font-weight: 900;
+  line-height: 80px; }
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 25px; }
+
+p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 0px; }
+
+section {
+  padding: 100px 0; }
+
+.presentation {
+  background: url(../img/imagenFondo.png) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  color: white; }
+  .presentation .presentation__container-title {
+    margin: 60px auto 60px auto;
+    text-align: center; }
+
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px; }
+  .navbar .nav-link {
+    color: black; }
+  .navbar .nav-link:hover {
+    color: black; }
+
+.clinica .clinica__container-text {
+  margin: auto auto 60px auto;
+  text-align: center; }
+
+.tratamientos .tratamientos__container-text {
+  margin: auto auto 60px auto;
+  text-align: center; }
+
+.tratamientos .tratamientos__container-imagen {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 8px; }
+
+.tratamientos .tratamientos__container-imagen {
+  transition: all 0.8s ease; }
+
+.tratamientos .tratamientos__container-imagen:hover {
+  transform: scale(1.1); }
+
+.tratamientos .tratamientos__container-imagen-texto {
+  position: absolute;
+  bottom: 15px;
+  left: 25px; }
+
+.equipo {
+  background-color: #f5f5f5; }
+  .equipo .equipo__container-text {
+    margin: auto auto 60px auto;
+    text-align: center; }
+
+.contacto .contacto__container {
+  margin-top: 30px; }
+
+.contacto .contacto__form-style {
+  font-size: 14px;
+  border: 1px solid #cacaca;
+  padding: 15px;
+  border-radius: 25px;
+  height: auto; }
+
+.footer {
+  background-color: #2C323A;
+  padding: 80px 0;
+  text-align: center;
+  color: white; }
+  .footer .footer__link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; }
