@@ -1,5 +1,8 @@
 @import "fuentes";
-
+@mixin margenes__texto {
+	margin: 60px auto 60px auto;
+	text-align: center;
+}
 
 *{ 
 	margin: 0%; 
@@ -35,8 +38,7 @@ section{
 	color: white;
 
 	& .presentation__container-title{
-		margin: 60px auto 60px auto;
-		text-align: center;}
+	@include margenes__texto; }
 }
 
 
@@ -58,16 +60,14 @@ section{
 	
 	& .clinica__container-text
 	{
-		margin: auto auto 60px auto;
-		text-align: center;
+		@include margenes__texto;
 	}
 }
 
 .tratamientos{
 	
 	& .tratamientos__container-text{
-		margin: auto auto 60px auto;
-		text-align: center;
+		@include margenes__texto;
 	}
 	& .tratamientos__container-imagen
 	{
@@ -95,8 +95,7 @@ section{
 		
 		& .equipo__container-text
 		{
-			margin: auto auto 60px auto;
-			text-align: center;
+			@include margenes__texto;
 			
 		}
 }
@@ -114,6 +113,21 @@ section{
    	 	border-radius: 25px;
     	height: auto;
 	}
+	& .contacto__form--btn{
+		text-decoration: none;
+    	padding: 10px;
+    	font-weight: $weight_fuente_btn;
+    	font-size: 20px;
+    	color: #ffffff;
+    	background-color: #1883bab5;
+    	border-radius: 32px;
+    	border: 2px solid #0a78b1;
+    	transition: all 0.5s;
+	}
+	& .contacto__form--btn:hover{
+	    color: #042ee2;
+    	background-color: #ffffff;
+    }
 }
 
 .footer{

@@ -46,11 +46,11 @@ section {
     color: black; }
 
 .clinica .clinica__container-text {
-  margin: auto auto 60px auto;
+  margin: 60px auto 60px auto;
   text-align: center; }
 
 .tratamientos .tratamientos__container-text {
-  margin: auto auto 60px auto;
+  margin: 60px auto 60px auto;
   text-align: center; }
 
 .tratamientos .tratamientos__container-imagen {
@@ -73,7 +73,7 @@ section {
 .equipo {
   background-color: #f5f5f5; }
   .equipo .equipo__container-text {
-    margin: auto auto 60px auto;
+    margin: 60px auto 60px auto;
     text-align: center; }
 
 .contacto .contacto__container {
@@ -86,6 +86,21 @@ section {
   border-radius: 25px;
   height: auto; }
 
+.contacto .contacto__form--btn {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #1883bab5;
+  border-radius: 32px;
+  border: 2px solid #0a78b1;
+  transition: all 0.5s; }
+
+.contacto .contacto__form--btn:hover {
+  color: #042ee2;
+  background-color: #ffffff; }
+
 .footer {
   background-color: #2C323A;
   padding: 80px 0;
@@ -94,4 +109,4 @@ section {
   .footer .footer__link {
     color: white;
     text-decoration: none;
-    padding: 10px 15px; }
+    top-margin: 14px; }
