@@ -19,7 +19,7 @@ h2 {
   margin-bottom: 25px; }
 
 p {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.8;
   margin-bottom: 0px; }
 
@@ -75,6 +75,14 @@ section {
   .equipo .equipo__container-text {
     margin: 60px auto 60px auto;
     text-align: center; }
+  .equipo .equipo__miembros {
+    position: relative;
+    margin: 10px 0; }
+  .equipo .equipo__miembros-detalles {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 20px; }
 
 .contacto .contacto__container {
   margin-top: 30px; }
@@ -88,18 +96,19 @@ section {
 
 .contacto .contacto__form--btn {
   text-decoration: none;
-  padding: 10px;
-  font-weight: 600;
-  font-size: 20px;
+  text-align: center;
+  padding: 4px;
+  font-size: 17px;
   color: #ffffff;
-  background-color: #1883bab5;
-  border-radius: 32px;
-  border: 2px solid #0a78b1;
-  transition: all 0.5s; }
+  background-color: black;
+  border-radius: 6px;
+  border: 2px solid #020202;
+  display: inline-block;
+  width: 100%; }
 
 .contacto .contacto__form--btn:hover {
-  color: #042ee2;
-  background-color: #ffffff; }
+  color: #ffffff;
+  background-color: #51768a; }
 
 .footer {
   background-color: #2C323A;
