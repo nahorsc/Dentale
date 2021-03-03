@@ -65,28 +65,34 @@ section{
 }
 
 .tratamientos{
-	
+
 	& .tratamientos__container-text{
 		@include margenes__texto;
 	}
 	& .tratamientos__container-imagen
 	{
-		position: relative;
-		overflow: hidden;
-		margin: 10px 0;
-		border-radius: 8px;
+    	position: relative;
+		overflow:hidden;
+    	margin: 10px 0;
+    	border-radius: 2px;
 	}
 	
 	& .tratamientos__container-imagen{
-		transition: all 0.8s ease;
+    	-moz-transition: all 0.8s;
+    	-webkit-transition: all 0.8s;
+    	transition: all 0.8s;
 	}
 	& .tratamientos__container-imagen:hover{
-		transform:scale(1.1);
+    	-moz-transform: scale(1.2);
+    	-webkit-transform: scale(1.2);
+    	transform: scale(1.2);
 	}
 	& .tratamientos__container-imagen-texto{
-		position: absolute;
-		bottom: 15px;
-		left: 25px;
+    	position: absolute;
+    	bottom: 25px;
+    	left: 25px;
+    	z-index: 9000;
+    	margin-bottom: 0px;
 	}
 }
 
