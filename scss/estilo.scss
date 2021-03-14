@@ -2,7 +2,9 @@
 @mixin margenes__texto {
 	margin: 60px auto 60px auto;
 	text-align: center;
-}
+} 
+
+CSS .wow { visibility: hidden; }
 
 *{ 
 	margin: 0%; 
@@ -194,5 +196,4 @@ section{
 }
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .tratamientos__container-imagen-texto h2 { font-size: 30px; }
-    .plans { min-width: unset; padding: 40px 20px;}
 }
